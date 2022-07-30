@@ -162,7 +162,7 @@ network_address = '18.223.175.117:8888'
 * tokenleri kontrol etmek isterseniz: [explorer linki](https://big-dipper-tropos.thestratos.org/)
 
 ```
-curl --header "Content-Type: application/json" --request POST --data '{"denom":"ustos","address":"CÜZDANADRESİ"} ' https://faucet-tropos.thestratos.org/credit
+curl --header "Content-Type: application/json" --request POST --data '{"denom":"ustos","address":"st1pa30tsswethn7639jqd3kg7nvgj2e8dvt0hhx5"} ' https://faucet-tropos.thestratos.org/credit
 ```
 
 ### tmux kurulumu:
