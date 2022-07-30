@@ -254,7 +254,7 @@ prepay 1000000000 10000 600000
 * Bunu yaptıktan sonra ctrl+a basıp d diyelim ve çıkalım
 
 ```
-getoz cüzdanadresi
+getoz st1pa30tsswethn7639jqd3kg7nvgj2e8dvt0hhx5
 ```
 
 ![image](https://user-images.githubusercontent.com/101149671/181838423-334acdb7-4dc4-4cec-8a5e-301179024b4d.png)
