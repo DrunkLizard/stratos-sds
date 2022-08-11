@@ -81,6 +81,7 @@ make install
 * 5- bip39 sorusunu sadece enter diyelim (eski stratos cüzdanınız varsa 12 kelımesını girebilirsiniz)
 * 6- Tekrar enter
 * 7- Son olara Y (yes) diyerek bitiriyoruz.
+* 8- Y dedikten sonra mnemonic 24 kelime veriyor.
 
 ```
 cd $HOME
@@ -223,7 +224,7 @@ registerpeer
 * Bu komutu girdikten sonra uzun bir süre (veya kısa) bekleyip true çıktısı almalısınız
 
 ```
-activate 10000000000 10000 1000000
+activate 9000000000 10000 1000000
 ```
 
 ### Node durumuna bakaım:
@@ -307,6 +308,51 @@ chmod +x upload.sh
 
 ```
 https://rest-tropos.thestratos.org/pot/rewards/wallet/st1jmxxzgy6jevnd3gpejyqr4mvrfj8hqkh2p9yen
+```
+
+<h1 align="center">Stratos SDS için yardımcı komutlar</h1>
+
+
+## Cüzdanı görmek:
+```
+wallets
+```
+
+## 24 kelimeleri (mnemonic) almak:
+
+* Komutu giriyoruz ilk başta
+
+* 1- Şifreyi girelim
+* 2- Şifreyi tekrar girelim
+* 3- Cüzdan adı
+* 4- Şifre tekrar
+* 5- bip39 sorusunu sadece enter diyelim
+* 6- Tekrar enter
+* 7- Son olara Y (yes) diyerek bitiriyoruz.
+* 8- Y dedikten sonra mnemonic 24 kelime veriyor.
+
+```
+newwallet
+```
+
+![image](https://user-images.githubusercontent.com/101149671/181919387-7c385af5-c173-4f85-bd42-69613f7ded89.png)
+
+
+## Ozon almak için:
+```
+prepay 500000000 10000 1000000
+```
+
+## Ozon miktarına bakmak için:
+```
+getoz CÜZDANADRESI
+```
+
+![image](https://user-images.githubusercontent.com/101149671/181904425-bfc156ab-d9ad-44be-93d9-37e91849bc9f.png)
+
+## Mining'in suspend/offline sorununu çözme 
+```
+updateStake 1000000000 10000 1000000 1
 ```
 
 # Sorun yaşarsanız lütfen grupta [grup linki](https://t.me/StratosTurkish) arama kısmını kullanın ricamdır, çok yoğun ve yorgun dönemlerdeyim/dönemlerdeyiz.
